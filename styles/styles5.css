@@ -1,0 +1,33 @@
+body {
+    background-color: #efefef;
+    color: #efefef;
+}
+
+#article {
+    border: 1px solid #2e2b2b;
+    background-color: #5c5c5c;
+    padding: 20px;
+}
+
+h1 {
+    background-color: rgb(223, 0, 137);
+    padding: 10px;
+}
+
+h2 {
+    background-color: rgb(223, 0, 137,1);
+    padding: 10px;
+}
+
+/* hue 0-360 */
+/* saturation 0%-100% */
+/* lightness 0%-100% */
+p.paragraf1 {
+    background-color: hsl(143, 100%, 33%);
+    padding: 10px;
+}
+
+p.paragraf2 {
+    background-color: hsl(143, 100%, 33%, 0.5);
+    padding: 10px;
+}
