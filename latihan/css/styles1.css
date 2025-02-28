@@ -1,0 +1,62 @@
+/* cascade */
+
+* {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+h1 {
+    font-family: 'Times New Roman';
+}
+
+h3 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 16px;
+}
+
+h3>span {
+    font-family: arial;
+}
+
+h3>span {
+    color: crimson;
+}
+
+span {
+    color: blue;
+}
+
+/* inheritance */
+
+/* span dalam heading */
+
+h3{
+    font-size: 12px;
+    padding: 10px;
+}
+
+h3>span {
+    padding-left: inherit;
+    padding-right: inherit;
+}
+
+/* color */
+
+h2 {
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+
+h3  {
+    background-color: rgba(100,25,0,0.2);
+}
+
+h1 {
+    background-color: #ffd6ee;
+    padding: 10px;
+    text-align: center;
+}
+
+body {
+    background-color: azure;
+}
